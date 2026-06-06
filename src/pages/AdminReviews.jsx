@@ -222,9 +222,8 @@ function AdminReviews() {
 
                             <tr>
 
-                                <th style={thStyle}>
-                                    User Id
-                                </th>
+                                <th>User</th>
+                                <th>Email</th>
 
                                 <th style={thStyle}>
                                     Language
@@ -258,11 +257,8 @@ function AdminReviews() {
                                             }
                                         >
 
-                                            <td style={tdStyle}>
-                                                {
-                                                    review.userId
-                                                }
-                                            </td>
+                                            <td>{review.userName}</td>
+                                            <td>{review.userEmail}</td>
 
                                             <td style={tdStyle}>
                                                 {

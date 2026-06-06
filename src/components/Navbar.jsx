@@ -28,13 +28,13 @@ function Navbar() {
         navigate("/");
     };
     const navLinkStyle = {
-  color: "#ffffff",
-  textDecoration: "none",
-  fontWeight: "500",
-  display: "flex",
-  alignItems: "center",
-  gap: "6px"
-};
+        color: "#ffffff",
+        textDecoration: "none",
+        fontWeight: "500",
+        display: "flex",
+        alignItems: "center",
+        gap: "6px"
+    };
 
     return (
 
@@ -104,9 +104,9 @@ function Navbar() {
                         <>
 
                             <Link
-    to="/admin"
-    style={navLinkStyle}
->
+                                to="/admin"
+                                style={navLinkStyle}
+                            >
                                 <>
                                     <FaChartLine />
                                     Dashboard
@@ -115,29 +115,22 @@ function Navbar() {
 
                             <Link
                                 to="/admin/users"
-                                style={{
-                                    color: "#ffffff",
-                                    textDecoration: "none",
-                                    fontWeight: "500",display: "flex",
-alignItems: "center",
-gap: "6px",
-                                }}
+                                style={navLinkStyle}
                             >
-                               <>
-  <FaUsers />
-  Users
-</>
+                                <>
+                                    <FaUsers />
+                                    Users
+                                </>
                             </Link>
 
                             <Link
                                 to="/admin/reviews"
-                                style={{
-                                    color: "#ffffff",
-                                    textDecoration: "none",
-                                    fontWeight: "500"
-                                }}
+                                style={navLinkStyle}
                             >
-                                Reviews
+                                <>
+                                    <FaCode />
+                                    Reviews
+                                </>
                             </Link>
 
                         </>
@@ -152,36 +145,27 @@ gap: "6px",
 
                             <Link
                                 to="/review"
-                                style={{
-                                    color: "#ffffff",
-                                    textDecoration: "none",
-                                    fontWeight: "500"
-                                }}
+                                style={navLinkStyle}
                             >
-                                Review
+                                <>
+                                    <FaCode />
+                                    Review
+                                </>
                             </Link>
 
                             <Link
                                 to="/dashboard"
-                                style={{
-                                    color: "#ffffff",
-                                    textDecoration: "none",
-                                    fontWeight: "500"
-                                }}
+                                style={navLinkStyle}
                             >
-                                Dashboard
+                                <>
+                                    <FaChartLine />
+                                    Dashboard
+                                </>
                             </Link>
 
                             <Link
                                 to="/history"
-                                style={{
-                                    color: "#ffffff",
-                                    textDecoration: "none",
-                                    fontWeight: "500",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    gap: "6px",
-                                }}
+                                style={navLinkStyle}
                             >
                                 <>
                                     <FaHistory />
@@ -240,15 +224,15 @@ gap: "6px",
                                 cursor: "pointer",
                                 fontWeight: "600",
                                 display: "flex",
-alignItems: "center",
-gap: "8px",
-transition: "0.3s",
+                                alignItems: "center",
+                                gap: "8px",
+                                transition: "0.3s",
                             }}
                         >
                             <>
-  <FaSignOutAlt />
-  Logout
-</>
+                                <FaSignOutAlt />
+                                Logout
+                            </>
                         </button>
 
                     )
