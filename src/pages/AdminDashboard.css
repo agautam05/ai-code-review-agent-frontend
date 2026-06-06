@@ -1,0 +1,21 @@
+.admin-card {
+
+    background: #1e293b;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    color: white;
+
+    border: 1px solid #334155;
+
+    transition: 0.3s;
+}
+
+.admin-card:hover {
+
+    transform: translateY(-5px);
+}
