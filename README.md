@@ -1,16 +1,103 @@
-# React + Vite
+# AI Code Review Agent Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+AI Code Review Agent is a web application that helps developers improve code quality through AI-powered code analysis. Users can submit code snippets and receive detailed feedback, issue detection, quality scores, improvement suggestions, and personalized recommendations based on previous reviews.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This repository contains the frontend application built with React and Vite.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User Authentication (Login & Registration)
+- AI-Powered Code Review Interface
+- Code Quality Score Visualization
+- Security & Performance Issue Display
+- Personalized Recommendations
+- Review History Tracking
+- Recurring Issue Analysis
+- Dashboard Analytics
+- PDF Report Export
+- Responsive User Interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Axios
+- React Router
+- Chart.js
+- CSS
+
+## Screenshots
+
+### Login Page
+(Add Screenshot)
+
+### Dashboard
+(Add Screenshot)
+
+### Code Review Result
+(Add Screenshot)
+
+### Recurring Issues Analysis
+(Add Screenshot)
+
+### Personalized Recommendations
+(Add Screenshot)
+
+## Project Structure
+
+```text
+src
+├── api
+├── assets
+├── components
+├── pages
+├── utils
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Key Pages
+
+### Dashboard
+Provides insights into previous reviews, issue trends, and recommendations.
+
+### Code Review
+Allows users to submit source code and receive AI-generated feedback.
+
+### History
+Displays previously generated code reviews.
+
+### Admin Dashboard
+Provides analytics and user management features.
+
+## How It Works
+
+1. User submits code through the interface.
+2. Frontend sends the request to the Spring Boot backend.
+3. Backend processes the code using AI.
+4. Results are displayed with:
+   - Score
+   - Issues
+   - Suggestions
+   - Improved Code
+5. Historical reviews are used to generate personalized recommendations.
+
+## Backend Repository
+
+Backend:
+https://github.com/agautam05/ai-code-review-agent
+
+## Future Improvements
+
+- GitHub Integration
+- Pull Request Reviews
+- Team Collaboration
+- Real-time Review Suggestions
+- Advanced Analytics
+
+## Author
+
+Aman Gautam
