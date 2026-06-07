@@ -1,23 +1,113 @@
-# AI Code Review Agent Frontend
+# AI Code Review Agent Frontend 💻
 
-## Overview
+Frontend application for the AI Code Review Agent built using React and Vite.
 
-AI Code Review Agent is a web application that helps developers improve code quality through AI-powered code analysis. Users can submit code snippets and receive detailed feedback, issue detection, quality scores, improvement suggestions, and personalized recommendations based on previous reviews.
+The platform enables developers to analyze source code, receive AI-powered feedback, track coding patterns, and improve code quality through personalized recommendations.
 
-This repository contains the frontend application built with React and Vite.
+---
 
 ## Features
 
-- User Authentication (Login & Registration)
-- AI-Powered Code Review Interface
-- Code Quality Score Visualization
-- Security & Performance Issue Display
-- Personalized Recommendations
-- Review History Tracking
-- Recurring Issue Analysis
-- Dashboard Analytics
+### Code Review
+- Multi-language code review
+- AI-generated issue detection
+- Code quality scoring
+- Improved code suggestions
+
+### Personalized Learning
+- Personalized recommendations
+- Recurring issue tracking
+- Historical review analysis
+- Developer improvement insights
+
+### Dashboard Analytics
+- Review statistics
+- Average score tracking
+- Issue frequency visualization
+- Issue distribution charts
+
+### History Management
+- Previous review tracking
+- Score trend analysis
+- Review details history
+
+### Additional Features
+- User Authentication
+- JWT Protected Routes
+- Admin Dashboard
 - PDF Report Export
-- Responsive User Interface
+- Responsive UI
+
+---
+
+## Screenshots
+
+### Landing Page
+(Add Screenshot)
+
+### Code Review Interface
+(Add Screenshot)
+
+### Review Results
+(Add Screenshot)
+
+### Personalized Recommendations
+(Add Screenshot)
+
+### Dashboard Analytics
+(Add Screenshot)
+
+### Review History
+(Add Screenshot)
+
+---
+
+## Project Structure
+
+```text
+src
+│
+├── api
+├── assets
+├── components
+├── pages
+├── utils
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Key Pages
+
+### Landing Page
+Introduction to the platform and feature overview.
+
+### Code Review
+Submit source code and receive AI-generated feedback.
+
+### Dashboard
+Visualize coding trends, issue frequencies, and performance metrics.
+
+### History
+Review previous code analysis reports and score trends.
+
+### Admin Dashboard
+Manage users and monitor platform activity.
+
+---
+
+## How It Works
+
+1. User submits code.
+2. Frontend sends the request to the Spring Boot backend.
+3. Backend analyzes code using Groq AI.
+4. Results are returned and displayed.
+5. Historical reviews are used to generate personalized recommendations.
+
+---
 
 ## Tech Stack
 
@@ -28,76 +118,38 @@ This repository contains the frontend application built with React and Vite.
 - Chart.js
 - CSS
 
-## Screenshots
+---
 
-### Login Page
-(Add Screenshot)
+## Problem Statement Alignment
 
-### Dashboard
-(Add Screenshot)
+The platform goes beyond traditional code review by:
 
-### Code Review Result
-(Add Screenshot)
+- Tracking historical reviews
+- Identifying recurring coding mistakes
+- Generating personalized recommendations
+- Helping developers continuously improve over time
 
-### Recurring Issues Analysis
-(Add Screenshot)
+This aligns with the goal of creating a code review agent that learns from previous review patterns and developer behavior.
 
-### Personalized Recommendations
-(Add Screenshot)
-
-## Project Structure
-
-```text
-src
-├── api
-├── assets
-├── components
-├── pages
-├── utils
-├── App.jsx
-├── main.jsx
-└── index.css
-```
-
-## Key Pages
-
-### Dashboard
-Provides insights into previous reviews, issue trends, and recommendations.
-
-### Code Review
-Allows users to submit source code and receive AI-generated feedback.
-
-### History
-Displays previously generated code reviews.
-
-### Admin Dashboard
-Provides analytics and user management features.
-
-## How It Works
-
-1. User submits code through the interface.
-2. Frontend sends the request to the Spring Boot backend.
-3. Backend processes the code using AI.
-4. Results are displayed with:
-   - Score
-   - Issues
-   - Suggestions
-   - Improved Code
-5. Historical reviews are used to generate personalized recommendations.
-
-## Backend Repository
-
-Backend:
-https://github.com/agautam05/ai-code-review-agent
+---
 
 ## Future Improvements
 
 - GitHub Integration
 - Pull Request Reviews
-- Team Collaboration
-- Real-time Review Suggestions
-- Advanced Analytics
+- Team Collaboration Features
+- Real-Time Suggestions
+- CI/CD Integration
+- Team-Level Learning Models
+
+---
+
+## Backend Repository
+
+https://github.com/agautam05/ai-code-review-agent
+
+---
 
 ## Author
 
-Aman Gautam
+**Aman Gautam**
